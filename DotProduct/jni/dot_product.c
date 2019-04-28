@@ -88,12 +88,12 @@ int main (){
 		}
 	}
 
-	printf("\n Running product point serial \n");
+	printf("\n Running dot product serial \n");
 	product_point_serial(vec_x1,vec_y1,VECTOR_SIZE_1);
 	product_point_serial(vec_x2,vec_y2,VECTOR_SIZE_2);
 	product_point_serial(vec_x3,vec_y3,VECTOR_SIZE_3);
 
-	printf("\n Running product point parallel \n");
+	printf("\n Running dot product parallel \n");
 	product_point_parallel(vec_x1,vec_y1,VECTOR_SIZE_1);
 	product_point_parallel(vec_x2,vec_y2,VECTOR_SIZE_2);
 	product_point_parallel(vec_x3,vec_y3,VECTOR_SIZE_3);
